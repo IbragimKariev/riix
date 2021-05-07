@@ -1,0 +1,225 @@
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .container {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1300px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .main-page-links {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home {
+        min-height: 38vh;
+        padding: 101px 0 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer-right.no-m{
+        margin-top: 0;
+    }
+    .desktop-w100 {
+        width: 100%;
+    }
+
+    .footer-nav, .footer-right {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-right{
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px
+    }
+    .footer-nav li {
+        margin: 0 17px;
+    }
+    .footer-right .button-open-pp {
+        margin: 0 17px;
+    }
+    .button-open-pp.bg-white {
+        min-width: 180px;}
+    ul.footer-apps li {
+        display: inline;
+        margin: 0 15px;
+    }
+    ul.footer-apps{
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .block-card {
+        margin: 0 10px 20px;
+    }
+
+    .desktop-none {
+        display: block;
+    }
+
+    .mobile-none {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .footer-nav li {
+        text-align: center;
+        display: block;
+        margin: 5px 0px 20px 0;
+        list-style: none;
+    }
+
+    .mobile-w100 {
+        width: 100%;
+    }
+
+    .main-page-links {
+        padding: 60px 0;
+    }
+
+    #hamburger-icon {
+        display: inline-block;
+    }
+
+    .header {
+        z-index: 999;
+        background: #ffffff;
+        position: fixed;
+        padding: 0 10px;
+    }
+
+    .main-top {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home {
+        min-height: 38vh;
+        padding: 60px 0 0;
+    }
+
+    .header-right {
+        background: rgba(255, 255, 255, 0.9);
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: initial;
+        display: none;
+        transition: all 0.3s;
+        padding: 90px 32px 25px;
+        height: 100vh;
+        position: absolute;
+        right: 0px;
+        left: auto;
+    }
+
+    .header-right.header-right-open {
+        display: flex;
+        transition: all 0.3s;
+    }
+
+    .header-right .header-right-item {
+        margin-bottom: 20px;
+    }
+
+    .footer-right .button-open-pp {
+        margin-left: 0px;
+    }
+
+    .button-open-pp.bg-white {
+        min-width: 120px;
+        background: #ffffff;
+    }
+
+    .footer-right {
+        display: flex;
+        justify-content: center;
+        margin-top: 36px;
+        margin-bottom: 10px;
+    }
+
+    .form-select-block.border-r {
+        border-right: 2px solid #D6D6D6;
+    }
+
+    .footer-right .form-select-block {
+        height: 18px;
+    }
+
+    .footer-right .button-open-pp {
+        padding: 0px 16px;
+    }
+
+    .footer-right .form-select-block:before, .footer-right .form-select-block:after {
+        top: 10px;
+    }
+
+    .footer-right .form-select-block:after {
+        right: 27px;
+    }
+
+    .footer-right .form-select-block:before {
+        right: 20px;
+    }
+
+    ul.footer-apps li {
+        display: inline-block;
+        margin: 0 15px;
+    }
+
+    .footer-apps {
+        display: flex;
+    }
+
+    .c-6.mt-40.mobile-w100 {
+        margin-top: 0;
+    }
+
+    .footer-nav {
+        margin-top: 45px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        background: #F3F3F3;
+        padding: 10px 0 50px;
+    }
+
+    .footer-right .button-open-pp.bg-white {
+        background: none;
+    }
+}
