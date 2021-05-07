@@ -222,4 +222,7 @@
     .footer-right .button-open-pp.bg-white {
         background: none;
     }
+    .footer-right .button-open-pp {
+        margin: 0px 0px;
+    }
 }
