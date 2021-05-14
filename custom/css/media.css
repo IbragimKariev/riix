@@ -95,7 +95,25 @@
 }
 
 @media (max-width: 768px) {
-
+    .close-popup:before .close-popup:after {
+        width: 32px;
+    }
+    .close-popup {
+        position: absolute;
+        top: 38px;
+        right: 14px;
+        width: 30px;
+        height: 31px;
+        cursor: pointer;
+    }
+    .popup{
+        width: 360px;
+        padding: 80px 0 80px;
+    }
+    .popup form {
+        width: auto;
+        padding: 0 8px;
+    }
     .footer-nav li {
         text-align: center;
         display: block;
