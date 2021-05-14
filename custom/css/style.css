@@ -205,6 +205,7 @@ footer{
 
 .footer-right .button-open-pp {
     margin-left: 25px;
+    min-width: 120px;
 }
 .desktop-none{
     display: none;
@@ -648,10 +649,10 @@ ul.footer-apps li{
     top: 0;
     width: 200px;
     list-style: none;
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 5px;
-    -webkit-box-shadow: 0px 15px 19px 1px rgb(1 1 1 / 10%);
-    box-shadow: 0px 15px 19px 1px rgb(1 1 1 / 10%);
+    -webkit-box-shadow: 0px 15px 19px 1px rgb(1 1 1 / 6%);
+    box-shadow: 0px 15px 19px 1px rgb(1 1 1 / 6%);
     transition: all 0.3s;
 }
 .dropdown dd ul li:first-child a:hover {
@@ -675,6 +676,13 @@ ul.footer-apps li{
     color: #435FC2;
 }
 .dropdown.form-select-block{
-    width: 120px;
+
     background: #ffffff;
+}
+.footer-right .form-select-block .button-open-pp{
+    width: 130px;
+}
+
+.footer-right .form-select-block:before, .footer-right .form-select-block:after {
+    top: 17px;
 }

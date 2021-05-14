@@ -205,13 +205,6 @@
         top: 10px;
     }
 
-    .footer-right .form-select-block:after {
-        right: 27px;
-    }
-
-    .footer-right .form-select-block:before {
-        right: 20px;
-    }
 
     ul.footer-apps li {
         display: inline-block;
@@ -242,5 +235,16 @@
     }
     .footer-right .button-open-pp {
         margin: 0px 0px;
+    }
+    .footer-right .form-select-block .button-open-pp {
+        width: 123px;
+    }
+    .form-control-btns {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .form-control-btns .btn-pp{
+        margin: 0;
     }
 }
