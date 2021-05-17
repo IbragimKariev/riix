@@ -58,3 +58,10 @@ dropdowns.find("dd ul li a").click(function(){
 $(document).bind('click', function(e){
     if (! $(e.target).parents().hasClass("dropdown")) $(".dropdown dd ul").hide();
 });
+
+$('.accordion h4').click(function(event) {
+    $('.accordion > ul > li > ul:visible').not($(this).nextAll('ul')).stop().hide(200).parent().removeClass('open'); //
+    $(this).nextAll('ul').slideToggle(200, function() {
+        $(this).parent('.pagenav').toggleClass('open');
+    });
+});
