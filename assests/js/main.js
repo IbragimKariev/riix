@@ -65,3 +65,14 @@ $('.accordion h4').click(function(event) {
         $(this).parent('.pagenav').toggleClass('open');
     });
 });
+// Вызов модального окна
+$('.checked-item').click( function() {
+    $('.bg-gray-d').fadeIn();
+    $('.accordion').fadeIn();
+});
+
+// Закрытие окна на крестик
+$('.close-lb').click( function() {
+    $('.bg-gray-d').fadeOut();
+    $('.accordion').fadeOut();
+});
