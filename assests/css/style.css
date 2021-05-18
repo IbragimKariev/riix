@@ -64,7 +64,7 @@ a {
 .header {
     position: sticky;
     width: 100%;
-    top: 0;
+    top: 21px;
     background: none;
 }
 
@@ -142,7 +142,7 @@ select.form-select option {
 .btn {
     min-width: 80px;
     text-align: center;
-    padding: 8px 8px;
+    padding: 7px 13px;
     border-radius: 3px;
     border: 0;
     -webkit-transition: .2s ease-out;
@@ -155,18 +155,18 @@ select.form-select option {
 }
 
 .btn-gray {
-    border: 2px solid #eef1f9;
+    border: 1px solid #eef1f9;
     background: #eef1f9;
     border-radius: 5px;
     color: #435FC2;
 }
 
 .btn-gray:hover {
-    border: 2px solid #435fc2;
+    border: 1px solid #435fc2;
 }
 
 .btn-blue {
-    border: 2px solid #435fc2;
+    border: 1px solid #435fc2;
     border-radius: 5px;
     background: #ffffff;
     transition: all 0.3s;
@@ -183,16 +183,16 @@ select.form-select option {
 }
 
 .logo {
-    margin-right: 45px;
+    margin-right: 7px;
 }
 
 .home {
     min-height: 38vh;
-    padding: 30vh 0 0;
+    padding: 27vh 0 0;
 }
 
 footer {
-    padding: 57px 0;
+    padding: 72px 0;
 }
 
 .footer-nav {
@@ -356,15 +356,13 @@ ul.footer-apps li {
 .button-open-pp {
     outline: none;
     border-radius: 5px;
-    padding: 8px 16px;
+    padding: 7px 32px 7px 5px;
     box-shadow: none;
     border: none;
-    min-width: 120px;
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
     color: #2D295A;
-    padding-right: 10px;
     background: none;
     text-align: left;
 }
@@ -402,7 +400,7 @@ ul.footer-apps li {
 }
 
 .block-card {
-    width: 280px;
+    width: 267px;
     border-radius: 25px;
     padding: 25px;
     position: relative;
@@ -764,13 +762,11 @@ ul.footer-apps li {
 }
 
 .dropdown.form-select-block {
-
+    width: 118px;
     background: #ffffff;
 }
 
-.footer-right .form-select-block .button-open-pp {
-    width: 130px;
-}
+
 
 .footer-right .form-select-block:before, .footer-right .form-select-block:after {
     top: 17px;
@@ -825,15 +821,23 @@ body.body-content header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 200px;
     height: 403px;
 }
 .rightblock.bg-image{
     background-image: url(../img/bg/kivz-content.png) !important
+    padding-top: 200px;
 }
 .accordion ul {
     margin: 0;
     padding: 0;
+}
+.rightblock p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 180%;
+    color: #2D295A;
+    margin: 0;
 }
 
 .accordion .pagenav {
@@ -1059,4 +1063,10 @@ input[type="text"]::placeholder{
     content: " ";
     background: rgba(0, 0, 0, 0.3);
     z-index: 999;
+}
+header .form-select-block:before {
+    right: -3px;
+}
+header .form-select-block:after {
+    right: 5px;
 }
