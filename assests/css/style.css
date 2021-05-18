@@ -824,7 +824,7 @@ body.body-content header {
     height: 403px;
 }
 .rightblock.bg-image{
-    background-image: url(../img/bg/kivz-content.png) !important
+    background-image: url(../img/bg/kivz-content.png) !important;
     padding-top: 200px;
 }
 .accordion ul {
@@ -1069,4 +1069,11 @@ header .form-select-block:before {
 }
 header .form-select-block:after {
     right: 5px;
+}
+li.socials a{
+    font-size: 18px;
+    margin-right: 5px;
+}
+li.socials a:hover{
+    color: #435FC2;
 }
