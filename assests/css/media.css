@@ -390,8 +390,23 @@
     .form-control-btns .btn-pp {
         margin: 0;
     }
+    .footer-right .button-open-pp {
+        background: none;}
 }
 @media (max-width: 470px) {
+    .accordion {
+        display: none;
+        position: fixed;
+        top: calc(50vh - 290px);
+        left: calc(50% - 170px);
+        /* width: 100%; */
+        background: #ffffff;
+        z-index: 9999;
+        height: 580px;
+        width: 340px;
+        padding-top: 70px;
+        border-radius: 7px;
+    }
     .open-close-btn {
         position: relative;
         top: 19px;
@@ -409,4 +424,44 @@
     .rightblock input[type="text"]{
         width: 328px;
     }
+}
+@media (max-width: 360px) {
+    .accordion {
+        display: none;
+        position: fixed;
+        top: calc(50vh - 290px);
+        left: calc(50% - 165px);
+        /* width: 100%; */
+        background: #ffffff;
+        z-index: 9999;
+        height: 580px;
+        width: 327px;
+        padding-top: 70px;
+        border-radius: 7px;
+    }
+    .btn-pp {
+        width: 150px;
+        margin: 20px;
+        display: block;
+        padding: 9px 5px;}
+    .popup {
+        width: 258px;}
+    .form-select-block.border-r {
+        border-right: none;
+    }
+    .footer-right .form-select-block {
+        height: 34px;
+    }
+    .rightblock input[type="text"]{
+        width: 300px;
+    }
+    .form-block form, .govern-block {
+        width: 300px;
+    }
+    .footer-right.footer-btns{
+        flex-direction: column;
+        align-items: center;
+    }
+    .block-card {
+        width: 238px;}
 }

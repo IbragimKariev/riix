@@ -225,6 +225,7 @@ footer {
 }
 
 .footer-right .button-open-pp {
+    background: #ffffff;
     margin-left: 25px;
     min-width: 120px;
 }
@@ -369,7 +370,7 @@ ul.footer-apps li {
 
 .btn-pp {
     width: 150px;
-    margin-left: 40px;
+    margin: 20px;
     display: block;
     padding: 9px 27px;
     font-weight: 600;
@@ -390,7 +391,7 @@ ul.footer-apps li {
 
 .form-control-btns {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     width: 100%;
 }
 
