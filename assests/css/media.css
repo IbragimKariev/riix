@@ -32,12 +32,17 @@
     header .container {
         background: #ffffff;
     }
+    .rightblock p{
+        margin: 0 150px 0 0;
+
+    }
 }
 
 @media (max-width: 1500px) {
     header .container {
         background: #ffffff;
     }
+
 }
 
 @media (max-width: 1230px) {

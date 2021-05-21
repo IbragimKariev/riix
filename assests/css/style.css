@@ -170,6 +170,7 @@ select.form-select option {
     border-radius: 5px;
     background: #ffffff;
     transition: all 0.3s;
+    color: #435FC2;
 }
 
 .btn-blue:hover, .btn-gray:hover {
