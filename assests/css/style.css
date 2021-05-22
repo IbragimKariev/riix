@@ -823,7 +823,7 @@ body.body-content header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 403px;
+    display: inline-table;
 }
 .rightblock.bg-image{
     background-image: url(../img/bg/kivz-content.png) !important;
