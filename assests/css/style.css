@@ -475,9 +475,9 @@ ul.footer-apps li {
     background-image: url(../img/icons/arrow-right-orange-hover.svg);
 }
 
-.block-card.orange:hover .icon-block {
-    background-image: url(../img/icons/hover-user.svg);
-}
+/*.block-card.orange:hover .icon-block {*/
+/*    background-image: url(../img/icons/hover-user.svg);*/
+/*}*/
 
 .block-card.blue {
     background: #435FC2;
@@ -507,9 +507,9 @@ ul.footer-apps li {
     background-image: url(../img/icons/arrow-right-blue-hover.svg);
 }
 
-.block-card.blue:hover .icon-block {
-    background-image: url(../img/icons/hover-like.svg);
-}
+/*.block-card.blue:hover .icon-block {*/
+/*    background-image: url(../img/icons/hover-like.svg);*/
+/*}*/
 
 
 .block-card:hover {
