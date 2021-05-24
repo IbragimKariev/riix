@@ -476,8 +476,7 @@ ul.footer-apps li {
 }
 
 .block-card.orange:hover .icon-block {
-    /*background-image: url(../img/icons/hover-user.svg);*/
-    background: #ffc2a6;
+    background-image: url(../img/icons/hover-orange.svg);
 }
 
 .block-card.blue {
@@ -509,8 +508,7 @@ ul.footer-apps li {
 }
 
 .block-card.blue:hover .icon-block {
-    /*background-image: url(../img/icons/hover-like.svg);*/
-    background: #bdc7ea;
+    background-image: url(../img/icons/hover-user.svg);
 }
 
 
@@ -962,6 +960,17 @@ display: none;
     line-height: 40px;
     color: #2D295A;
 }
+p{
+    font-family: Exo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 170%;
+    display: flex;
+    align-items: center;
+    color: #2D295A;
+    margin: 10px 0;
+}
 .form-block form{
     width: 512px;
     margin: 0 auto;
@@ -1079,5 +1088,86 @@ li.socials a{
     margin-right: 5px;
 }
 li.socials a:hover{
+    color: #435FC2;
+}
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: #ffffff;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+.table td, .table th {
+    padding: 9px 60px;
+    vertical-align: top;
+    border: none;
+}
+th {
+    text-align: inherit;
+}
+table {
+    padding: 10px 15px;
+    border-collapse: collapse;
+}
+/*tbody tr:nth-child(odd) {*/
+/*    background: #F2F2F5;*/
+/*}*/
+
+tbody tr {
+    background: #F2F2F5;
+    border-top: 7px solid #ffffff;
+    border-bottom: 7px solid #ffffff;
+    border-radius: 8px;
+}
+h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 133px;
+    color: #2D295A;
+    margin: 0 0 0 0;
+}
+.heading{
+    margin: 0 0 0 0;
+    font-family: Exo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #2D295A;
+}
+.heading.primary-color{
+    color: #435FC2;
+}
+.chips{
+    font-family: Exo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #00C087;
+    line-height: 20px;
+}
+.simple{
+    font-family: Exo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #2D295A;
+}
+.main-text{
+    font-family: Exo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #2D295A;
+}
+.mini-buttons{
+    font-family: Exo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
     color: #435FC2;
 }
