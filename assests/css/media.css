@@ -160,6 +160,22 @@
 }
 
 @media (max-width: 768px) {
+    a.page-next{
+        margin-left: 28px;
+    }
+    a.page-prev{
+        margin-right: 28px;
+    }
+    .pagination a.page-prev, a.page-next {
+        width: 26px;
+    }
+    .pagination ul{
+     display: flex;
+    }
+    .pagination ul li a{
+        width: 28px;
+        height: 28px;
+    }
     header .container {
         width: 100%;
         padding: 0;
