@@ -817,13 +817,16 @@ body.body-content header {
 
 .rightblock {
     width: 855px;
-    background: #ffffff;
-    padding: 30px;
+
     border-radius: 7px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-table;
+}
+.rightblock .right-block-contents{
+    background: #ffffff;
+    padding: 30px;
 }
 .rightblock.bg-image{
     background-image: url(../img/bg/kivz-content.png) !important;
@@ -961,7 +964,6 @@ display: none;
     color: #2D295A;
 }
 p{
-    font-family: Exo;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -1131,7 +1133,7 @@ h1{
 }
 .heading{
     margin: 0 0 0 0;
-    font-family: Exo;
+     
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
@@ -1141,7 +1143,7 @@ h1{
     color: #435FC2;
 }
 .chips{
-    font-family: Exo;
+     
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -1149,7 +1151,7 @@ h1{
     line-height: 20px;
 }
 .simple{
-    font-family: Exo;
+     
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -1157,17 +1159,98 @@ h1{
     color: #2D295A;
 }
 .main-text{
-    font-family: Exo;
+     
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     color: #2D295A;
 }
 .mini-buttons{
-    font-family: Exo;
+     
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.03em;
     color: #435FC2;
+}
+.title-kviz{
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #2D295A;
+    margin: 0;
+}
+.subtitle-kviz{
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    color: #2D295A;
+}
+.img-kviz{
+    width: 100%;
+    border-radius: 10px;
+    margin: 40px 0;
+}
+.rightblock p.comment{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #2D295A;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    align-items: center;
+}
+.pagination ul{
+    margin: 0;
+    padding: 0;
+}
+.pagination ul li{
+    display: inline-block;
+    margin: 0;
+}
+.pagination ul li a{
+    transition: all 0.3ms;
+    font-size: 17px;
+    background: #ffffff;
+    width: 55px;
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 3px;
+    font-family: 'Roboto';
+}
+.pagination ul li a.active{
+    background: #435FC2;
+    color: #ffffff;
+}
+.pagination ul li a:hover{
+    transition: all 0.3ms;
+    background: #435FC2;
+    color: #ffffff;
+}
+.pagination a.page-prev, a.page-next{
+    width: 30px;
+}
+.pagination a.page-prev img, a.page-next img{
+    width: 100%;
+}
+a.page-next img{
+    transform: rotate(180deg);
+}
+a.page-next{
+    margin-left: 98px;
+}
+a.page-prev{
+margin-right: 98px;
 }
